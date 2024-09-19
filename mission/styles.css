@@ -29,11 +29,16 @@ body {
 }
 
 .header h2 {
-    font-size: 20px;
+    font-size: 18px;
     color: #5A5A5A;
     letter-spacing: 1px;
     margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightslategray;
+    display: inline-block; 
+    width: auto;
 }
+
 
 .content {
     margin: 20px 0;
