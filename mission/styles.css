@@ -62,7 +62,7 @@ body {
 /* Dark theme styles */
 body.dark {
     background-color: #333;
-    color: #fff;
+    color: white;
 }
 
 /* Additional styles remain the same */
