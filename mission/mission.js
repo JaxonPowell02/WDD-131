@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    // Add event listener for dropdown value change
+    // Add event listener for dropdown value change to change the theme
     themeSelector.addEventListener('change', changeTheme);
     
     // Initialize the theme to light mode by default
