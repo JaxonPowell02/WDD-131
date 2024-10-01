@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forefront Genetics</title>
+    <style>
+        /* Global styles */
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        h1, h2, p {
+            margin: 0;
+            padding: 0 15px;
+        }
+
+        /* Navigation */
+        .navbar {
+            background-color: #4CAF50;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            margin: 0 15px;
+        }
+
+        /* Hero section */
+        .hero {
+            background: url('https://via.placeholder.com/1920x800') no-repeat center center;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            font-size: 2em;
+        }
+
+        /* Services section */
+        .services {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .service {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .service img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Responsive media queries */
+        @media only screen and (max-width: 600px) {
+            .hero {
+                font-size: 1.5em;
+                background-size: cover;
+                height: 70vh;
+            }
+
+            .navbar a {
+                display: block;
+                margin: 10px 0;
+            }
+
+            .services {
+                padding: 20px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div>
+            <h1>Forefront Genetics</h1>
+            <p>Your Leading Partner in Artificial Insemination</p>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services" id="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service">
+                <img src="https://via.placeholder.com/300" alt="Service 1">
+                <h3>Insemination Consultation</h3>
+                <p>We provide expert advice and guidance to ensure successful procedures.</p>
+            </div>
+            <div class="service">
+                <img src="https://via.placeholder.com/300" alt="Service 2">
+                <h3>Genetic Screening</h3>
+                <p>We perform comprehensive genetic screenings to ensure top-tier results.</p>
+            </div>
+            <div class="service">
+                <img src="https://via.placeholder.com/300" alt="Service 3">
+                <h3>Donor Matching</h3>
+                <p>Our state-of-the-art database matches you with the best possible donor.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2024 Forefront Genetics. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
