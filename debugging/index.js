@@ -20,7 +20,7 @@ window.addEventListener('load', handleResize);
 function viewerTemplate(pic, alt) {
     return `<div class="viewer">
         <button class="close-viewer">X</button>
-        <img src="norris-sm.jpeg" alt="${alt}">
+        <img src="${pic}" alt="${alt}">
     </div>`;
 }
 
